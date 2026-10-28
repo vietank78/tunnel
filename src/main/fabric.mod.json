@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "straighttunnel",
+  "version": "${version}",
+  "name": "Straight Tunnel",
+  "description": "Đào 1 đường hầm thẳng bằng cúp 3x3 (nhấn K để bật/tắt).",
+  "environment": "client",
+  "entrypoints": { "client": ["com.straighttunnel.TunnelMiner"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
